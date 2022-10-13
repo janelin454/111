@@ -1,0 +1,35 @@
+Linux:一種自由開放原始碼的類似Unix的作業系統
+檔名:可包含"."(點)、"_"(下劃線)和"-"(連字元)
+Linux指令
+絕對路徑:cd /test2/hello
+相對路徑:cd ../../../test2/hello
+變換目錄:cd
+顯示目前的目錄的所在位置:pwd
+顯示目錄下的所有檔案:ls
+建立檔案:touch
+複製:cp
+查看檔案內容:cat
+編輯檔案:vi
+建立一個新目錄:mkdir
+同時建立多個目錄:mkdir -p
+刪除一個裡面是空的空目錄:rmdir
+刪除檔案:rm
+強制刪除:rm -r
+移動，重新命名:mv
+顯示目錄下的所有檔案(包含隱藏檔)詳細資訊:ls -al
+目錄權限:r(4)w(2)x(1)
+目錄權限eg:chmod 664 test.txt
+編輯文檔，儲存後離開:(:wq)   
+複製檔案或目錄:cp  -參數 來源檔案 目標檔案
+壓縮檔案:gzip FileName
+解壓縮檔案:gunzip FileName.gz
+檔案搜尋(大小):find -size +500M
+檔案搜尋(名稱):find -name "*.jpg"
+檔案搜尋(檔案或目錄):find -type f→ 一般檔案;  -type d→ 一般目錄
+檔案搜尋(擁有者):find -user user1 -o -user user210
+檔案內容查閱:cat -n file1 > file2→把file1的檔案內容加上行號後輸入file2檔案
+檔案內容查閱:tac(從最後一行開始顯示)
+檔案內容查閱:more一頁一頁的顯示檔案內容
+檔案內容查閱:顯示檔案室允許用戶既可以向前又可以向後翻頁閱讀檔案
+檔案內容查閱:head 取出前面幾行
+檔案內容查閱:tail 取出後面幾行
